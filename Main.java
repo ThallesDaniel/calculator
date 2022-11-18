@@ -36,7 +36,7 @@ if (!ValidaDadosDeEntrada(operacao, num1, num2)) {
 continue;
 }
 
-System.out.println("RESULTADO: O resultado da operacao " + getNomeOperacao(operacao) + " eh " + Calcular(operacao, num1, num2) + "\n");
+System.out.println("RESULTADO: O resultado da operacao " + getNomeOperacao(operacao) + " e " + Calcular(operacao, num1, num2) + "\n");
  } while (operacao != 0);
     }
 
